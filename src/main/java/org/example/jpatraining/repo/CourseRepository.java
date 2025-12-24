@@ -1,0 +1,9 @@
+package org.example.jpatraining.repo;
+
+import org.example.jpatraining.entities.Course;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface CourseRepository extends JpaRepository<Course,Long> {
+}
